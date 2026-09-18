@@ -25,3 +25,9 @@ for bar in bars:
 # 4. Lưu biểu đồ thành file ảnh bieu_do.png
 plt.savefig('bieu_do.png', bbox_inches='tight')
 print("\nĐã lưu biểu đồ thành công vào file 'bieu_do.png' trong thư mục hiện tại!")
+
+# 5. Hiển thị trực tiếp cửa sổ biểu đồ
+try:
+    plt.show()
+except Exception:
+    pass

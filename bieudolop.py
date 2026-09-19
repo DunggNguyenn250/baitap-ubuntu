@@ -22,11 +22,11 @@ for bar in bars:
     height = bar.get_height()
     ax.text(bar.get_x() + bar.get_width()/2., height + 0.3, f'{int(height)}', ha='center', va='bottom')
 
-# 4. Lưu biểu đồ thành file ảnh bieu_do.png
+# 4. Lưu biểu đồ thành file ảnh bieu_do.png (Sát lề trái)
 plt.savefig('bieu_do.png', bbox_inches='tight')
 print("\nĐã lưu biểu đồ thành công vào file 'bieu_do.png' trong thư mục hiện tại!")
 
-# 5. Hiển thị trực tiếp cửa sổ biểu đồ
+# 5. Hiển thị trực tiếp cửa sổ biểu đồ (Sát lề trái)
 try:
     plt.show()
 except Exception:

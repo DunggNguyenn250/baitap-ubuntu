@@ -1,0 +1,53 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "bieudolop",
+      "label": "bieudolop.py",
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": "bieudolop.py",
+      "source_file": "bieudolop.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "test_git",
+      "label": "test_git.py",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "test_git.py",
+      "source_file": "test_git.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "matplotlib_pyplot",
+      "label": "matplotlib_pyplot",
+      "community": 0,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "matplotlib_pyplot",
+      "source_file": "",
+      "type": "external"
+    }
+  ],
+  "links": [
+    {
+      "source": "bieudolop",
+      "target": "matplotlib_pyplot",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "bieudolop.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "3ca25c2192331d21c0e362bff7e4c95f5a3bdd0b"
+}
